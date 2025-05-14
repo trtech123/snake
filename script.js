@@ -30,7 +30,7 @@ function startGame() {
     if (isGameOver) {
         initializeGame();
         if (gameInterval) clearInterval(gameInterval);
-        gameInterval = setInterval(gameLoop, 1000 / 10);
+        gameInterval = setInterval(gameLoop, 1000 / 15);
     }
 }
 
